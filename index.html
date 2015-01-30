@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>HTML5 Canvas Pulse Indicator</title>
+</head>
+<body>
+
+    <script src="pulse.js"></script>
+    <script>
+    (new Pulse(document.getElementsByTagName("body")[0], {
+        size: 64,
+        color: "#ff6600",
+        background: "#111"
+    })).render();
+    </script>
+</body>
+</html>
