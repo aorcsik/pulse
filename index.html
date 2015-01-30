@@ -5,12 +5,15 @@
     <title>HTML5 Canvas Pulse Indicator</title>
 </head>
 <body>
+    <h1>HTML5 Canvas Pulse Indicator</h1>
+    <p><a href="http://github.com/aorcsik/pulse">http://github.com/aorcsik/pulse</a>
+    <div id="container"></div>
 
     <script src="pulse.js"></script>
     <script>
-    (new Pulse(document.getElementsByTagName("body")[0], {
+    (new Pulse(document.getElementById("container"), {
         size: 64,
-        color: "#ff6600",
+        color: "#00f000",
         background: "#111"
     })).render();
     </script>
